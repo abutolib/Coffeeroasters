@@ -113,6 +113,7 @@ img{
   background-image: url("../images/hero-bg.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  border-radius: 10px;
 
 }
 .hero__content {
@@ -316,6 +317,7 @@ img{
 
   .hero__inner{
     background-image: url("../images/hero-tablet-bg.jpg");
+    background-size: 100% 100%;
   }
 
   .hero__title{
@@ -369,6 +371,7 @@ img{
   }
 
   .choose__content{
+    max-width: 360px;
     padding-top: 56px;
     margin-bottom: 70px;
   }
@@ -427,9 +430,21 @@ img{
 }
 
 
+// @media only screen and (max-width:576px){
+  
+//   .navbar{
+//     display: none;
+//   }
+
+//   .site-header__menu-btn{
+//     display: block  ;
+//   }
+
+// }
 
 
-@media only screen and (max-width:376px) {
+
+@media only screen and (max-width:576px) {
 
   .container{
     padding: 0 24px;
@@ -446,7 +461,7 @@ img{
   .hero__inner{
     padding: 100px 24px;
     background-image: url("../images/hero-mobile-bg.jpg");
-    background-size: 327px 500px;
+    background-size: 100%;
   }
 
   .hero__title{
@@ -472,6 +487,8 @@ img{
   .collection__inner{
     background-image: url("../images/collection-mobile-bg.png");
   }
+
+  .c
 
   .collection__list{
     flex-wrap:wrap ;
