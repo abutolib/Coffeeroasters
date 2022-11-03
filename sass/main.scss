@@ -541,9 +541,9 @@ img{
 
   .choose-item{
     display: block;
-    width: 279px;
+    max-width: 279px;
     margin: 0 auto 24px;
-    padding: 72px 12px 48px  ;
+    padding:72px 12px 48px  ;
   }
 
   .choose-item + .choose-item{
@@ -578,4 +578,25 @@ img{
 
 
 
+}
+
+@media only screen  and (min-width:577px) and (max-width:670px) {
+
+  .choose-item{
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .choose-item + .choose-item{
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  .choose-item__wrapper{
+    width: 100%;
+    max-width: 250px;
+  }
+  
 }
