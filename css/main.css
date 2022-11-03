@@ -116,8 +116,8 @@ img {
 
 .site-header__menu-btn {
   display: none;
-  width: 17px;
-  height: 17px;
+  width: 16px;
+  height: 15px;
   margin-left: auto;
   background-image: url("../images/menu-btn-img3.png");
   background-repeat: no-repeat;
@@ -284,8 +284,6 @@ img {
 }
 
 .choose-item {
-  width: 100%;
-  max-width: 350px;
   padding: 72px 48px 48px;
   background: #0E8784;
   border-radius: 8px;
@@ -302,6 +300,8 @@ img {
   margin: 0 auto 56px;
   content: "";
   background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
 .choose-item:nth-child(1)::before {
@@ -319,6 +319,7 @@ img {
 .choose-item__wrapper {
   width: 100%;
   max-width: 255px;
+  margin: 0 auto;
 }
 
 .choose-item__title {
@@ -342,8 +343,12 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-  .container {
-    padding: 0 40px;
+  .site-header {
+    padding: 40px 0;
+  }
+  .navbar__link {
+    font-size: 12px;
+    line-height: 15px;
   }
   .hero__inner {
     background-image: url("../images/hero-tablet-bg.jpg");
@@ -414,28 +419,27 @@ img {
     margin: 0 auto;
   }
   .choose-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    max-width: 573px;
+    position: relative;
     margin-bottom: 24px;
     padding: 41px 48px;
   }
   .choose-item::before {
-    width: 55px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 55px;
     height: 55px;
-    margin: 0;
+    margin: auto 0;
     background-size: 100% 100%;
   }
   .choose-item + .choose-item {
     margin-left: 0;
   }
   .choose-item__wrapper {
-    margin-left: 55px;
+    width: 100%;
     max-width: 344px;
+    margin-left: 111px;
   }
   .choose-item__title {
     margin-bottom: 16px;
@@ -453,6 +457,13 @@ img {
 @media only screen and (max-width: 576px) {
   .container {
     padding: 0 24px;
+  }
+  .site-header {
+    padding: 24px 0;
+  }
+  .logo-pic {
+    width: 163px;
+    height: 18px;
   }
   .navbar {
     display: none;
@@ -529,13 +540,19 @@ img {
     margin-bottom: 24px;
   }
   .choose-item::before {
+    top: 72px;
+    left: 0;
+    right: 0;
+    display: block;
     width: 71px;
-    height: 72px;
+    height: 71px;
     margin: 0 auto 56px;
   }
   .choose-item__wrapper {
+    width: 100%;
+    max-width: 255px;
     margin: 0 auto;
-    width: 255px;
+    margin-top: 100px;
   }
   .choose-item__title {
     text-align: center;
