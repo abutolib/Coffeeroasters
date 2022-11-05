@@ -1,0 +1,157 @@
+.commitment{
+  padding-bottom: 244px;
+}
+
+.commitment__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.commitment__content {
+  width: 100%;
+  max-width: 539px;
+}
+.commitment__title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: 'Fraunces 9pt';
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+}
+.commitment__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width:768px) and (max-width:1100px){
+  .commitment__content{
+    width: 100%;
+    max-width:290px;
+
+  }
+
+  .commitment__title{
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (max-width:768px){
+
+  .commitment__img{
+    max-width: 281px;
+    height: 100%;
+    max-height: 470px;
+    object-fit: contain;
+  }
+
+  .commitment__content{
+    width: 100%;
+    max-width: 300px;
+
+  }
+
+
+
+  .commitment__inner{
+    justify-content: space-between;
+  }
+
+  .commitment_img{
+    width: 281px;
+    height: 470px;
+  }
+  .commitment__content{
+    width: 100%;
+    max-width: 339px;
+
+  }
+
+  .commitment__title{
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .commitment__text{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width:717px) {
+
+  .commitment__img{
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  .commitment__inner{
+    display: block;
+  }
+
+  .commitment__content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .commitment__title{
+    margin-top: 48px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .commitment__text{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+}
+
+@media only screen and (max-width:576px) {
+
+  .commitment__img{
+    display: block;
+    width: 100%;
+    max-width: 327px;
+    height: 400px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  .commitment__inner{
+    display: block;
+  }
+
+  .commitment__content{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 327px;
+  }
+
+  .commitment__title{
+    margin-top: 48px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .commitment__text{
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  
+}
