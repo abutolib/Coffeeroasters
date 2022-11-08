@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="logo" href="index.html">
+          <picture>
+
+            <source media="(max-width:576px)" srcset="./images/logo-mobile-header.svg">
+
+            <img class="logo-pic" src="./images/logo-header.svg" width="236" height="26" alt="site -logo">
+          </picture>
+        </a>
+
+        <nav class="navbar ">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="index.html">
+                HOME
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="about.html">
+                ABOUT US
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="create.html">
+                Create your plan
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="site-header__menu-btn"></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="create-hero">
+      <div class="container">
+        <div class="create-hero__inner">
+          <div class="create-hero__content">
+            <h1 class="create-hero__title">Create a plan</h1>
+            <p class="create-hero__text">
+              Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work create-work" >
+      <div class="container">
+        <div class="work__inner create-work__inner">
+          <div class="work__span">
+            <span class="circle create-work__cirle"></span>
+            <span class="line"></span>
+            <span class="circle create-work__cirle"></span>
+            <span class="line "></span>
+            <span class="circle create-work__cirle"></span>
+          </div>
+
+          <ul class="work__list create-work__list">
+            <li class="work__item work-item create-work-item">
+              <div class="work-item__content">
+                <h3 class="work-item__title create-work-item__title">01</h3>
+                <h4 class="work-item__subtitle create-work-item__subtitle">Pick your <br>
+                  coffee</h4>
+                <p class="work-item__text create-work-item__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+              </div>
+            </li>
+            <li class="work__item work-item create-work-item">
+             <div class="work-item__content">
+              <h3 class="work-item__title reate-work-item__title">02</h3>
+              <h4 class="work-item__subtitle create-work-item__subtitle">Choose the <br> frequency</h4>
+              <p class="work-item__text create-work-item__text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+             </div>
+            </li>
+            <li class="work__item work-item create-work-item">
+              <div class="work-item__content">
+                <h3 class="work-item__title reate-work-item__title">03</h3>
+              <h4 class="work-item__subtitle create-work-item__subtitle">Receive and <br> enjoy!</h4>
+              <p class="work-item__text create-work-item__text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="drink"> 
+      <div class="container">
+        <div class="drink__inner">
+          <div class="type">
+
+            <ol class="type__list">
+              <li class="type__item type-item">
+                <a href="#" class="type__link">
+                  <p class="type-item__number">01</p>
+                  <h3 class="type-item__title">Preferences</h3>
+                </a>
+                <span class="type-item__line"></span>
+              </li>
+              <li class="type__item type-item">
+                <a href="#" class="type__link">
+                  <p class="type-item__number">02</p>
+                  <h3 class="type-item__title">Bean Type</h3>
+                </a>
+                <span class="type-item__line"></span>
+              </li>
+              <li class="type__item type-item">
+                <a href="#" class="type__link">
+                  <p class="type-item__number">03</p>
+                  <h3 class="type-item__title">Quantity</h3>
+                </a>
+                <span class="type-item__line"></span>
+              </li>
+              <li class="type__item type-item">
+                <a href="#" class="type__link">
+                  <p class="type-item__number">04</p>
+                  <h3 class="type-item__title">Grind Option</h3>
+                </a>
+                <span class="type-item__line"></span>
+              </li>
+              <li class="type__item type-item">
+                <a href="#" class="type__link">
+                  <p class="type-item__number">05</p>
+                  <h3 class="type-item__title">Deliveries</h3>
+                </a>
+                <span class="type-item__line"></span>
+              </li>
+            </ol>
+
+
+          </div>
+
+          <div class="drink__form form">
+            <form action="https://echo.htmlacademy.ru/" method="post" autocomplete="off" >
+                
+                <details  class="form__details" open>
+                  <summary>
+                    <div class="option__row  ">
+                    <h3 class="option__title  ">How do you drink your coffee?</h3>
+                  </div>
+                  </summary>
+                <div class="option__content  ">
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="How do you drink your coffee?" value="Capsule" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Capsule</h4>
+                      <p  class="card__text">Compatible with Nespresso systems and similar brewers</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="How do you drink your coffee?" value="Filter" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Filter</h4>
+                      <p  class="card__text">For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="How do you drink your coffee?" value="Espresso" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Espresso</h4>
+                      <p  class="card__text">Dense and finely ground beans for an intense, flavorful experience</p>
+                    </div>
+                  </label>
+                </div>
+                </details>
+                
+  
+                
+                <details class="form__details">
+                  <summary>
+                    <div class="option__row  ">
+                    <h3 class="option__title  ">What type of coffee?</h3>
+                  </div>
+                  </summary>
+                <div class="option__content  ">
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="What type of coffee?" value="Single Origin" type="radio">
+                    <div class="option__card   card"> 
+                      <h4 class="card__title">Single Origin</h4>
+                      <p  class="card__text">Distinct, high quality coffee from a specific family-owned farm</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="What type of coffee?" value="Decaf" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Decaf</h4>
+                      <p  class="card__text">Just like regular coffee, except the caffeine has been removed</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="What type of coffee?" value="Blended" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Blended</h4>
+                      <p  class="card__text">Combination of two or three dark roasted beans of organic coffees</p>
+                    </div>
+                  </label>
+                </div>
+                </details>
+                
+  
+              
+                
+                <details class="form__details">
+                  <summary>
+                    <div class="option__row  ">
+                    <h3 class="option__title  ">How much would you like?</h3>
+                  </div>
+                  </summary>
+                <div class="option__content  ">
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="How much would you like?" value="250g" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">250g</h4>
+                      <p  class="card__text">Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="How much would you like?" value="500g" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">500g</h4>
+                      <p  class="card__text">Perfect option for a couple. Yields about 40 delectable cups.</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="How much would you like?" value="1000g" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">1000g</h4>
+                      <p  class="card__text">Perfect for offices and events. Yields about 90 delightful cups.</p>
+                    </div>
+                  </label>
+                </div>
+                </details>
+                
+  
+              
+                <details class="form__details">
+                  <summary>
+                    <div class="option__row  ">
+                    <h3 class="option__title  ">Want us to grind them?</h3>
+                  </div>
+                  </summary>
+                <div class="option__content  ">
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="Want us to grind them?" value="Wholebean" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Wholebean</h4>
+                      <p  class="card__text">Best choice if you cherish the full sensory experience</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="Want us to grind them?" value="Filter" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Filter</h4>
+                      <p  class="card__text">For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input   visually-hidden" name="Want us to grind them?" value="Cafetiére" type="radio">
+                    <div class="option__card   card">
+                      <h4 class="card__title">Cafetiére</h4>
+                      <p  class="card__text">Course ground beans specially suited for french press coffee</p>
+                    </div>
+                  </label>
+                </div>
+                </details>
+               
+  
+              
+                <details class="form__details">
+                  <summary>
+                    <div class="option__row  ">
+                    <h3 class="option__title ">How often should we deliver?</h3>
+                  </div>
+                  </summary>
+                <div class="option__content ">
+                  <label class="option__label ">
+                    <input class="option__input   visually-hidden" name="How often should we deliver?" value="Every week" type="radio">
+                    <div class="option__card  card">
+                      <h4 class="card__title">Every week</h4>
+                      <p  class="card__text">$7.20 per shipment. Includes free first-class shipping.</p>
+                    </div>
+                  </label>
+                  <label class="option__label  ">
+                    <input class="option__input  visually-hidden" name="How often should we deliver?" value="Every 2 weeks" type="radio">
+                    <div class="option__card  card">
+                      <h4 class="card__title">Every 2 weeks</h4>
+                      <p  class="card__text">$9.60 per shipment. Includes free priority shipping.</p>
+                    </div>
+                  </label>
+                  <label class="option__label ">
+                    <input class="option__input  visually-hidden" name="How often should we deliver?" value="Every month" type="radio">
+                    <div class="option__card  card">
+                      <h4 class="card__title">Every month</h4>
+                      <p  class="card__text">$12.00 per shipment. Includes free priority shipping.</p>
+                    </div>
+                  </label>
+                </div>
+                </details>
+
+                <div class="order-summary">
+                  <h3 class="order-summary__title">
+                    Order Summary
+                  </h3>
+                  <p class="order-summary__text">
+                    “I drink my coffee as <span class="order-summary__span">Filter</span>, with a <span class="order-summary__span">Decaf</span> type of bean. <span class="order-summary__span">250g</span> ground ala <span class="order-summary__span">Cafetiére</span>, sent to me <span class="order-summary__span">Every Week</span>.”
+                  </p>
+                </div>
+               
+
+               <button class="form__btn" type="submit">Create my plan!</button>
+            </form>
+              
+          </div>
+          
+          
+
+        </div>
+      </div>
+    </section>
+
+
+    
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <a class="logo" href="index.html">
+          <picture>
+
+            <!-- <source media="(max-width:576px)" srcset="./images/logo.svg"> -->
+
+            <img class="logo-pic" src="./images/footer-logo.svg" width="236" height="26" alt="site -logo">
+          </picture>
+        </a>
+
+        <nav class="navbar-footer">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="index.html">
+                HOME
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="about.html">
+                ABOUT US
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">
+                Create your plan
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="social-sites">
+          <ul class="social-sites__list">
+            <li class="social-sites__item">
+              <a href="https://facebook.com/">
+                <img class="footer-log-img" width="24" height="24" src="./images/facebook-logo.svg"
+                  alt="facebook logo">
+              </a>
+            </li>
+            <li class="social-sites__item">
+              <a href="https://twitter.com/" target="_blank">
+                <img class="footer-log-img" width="24" height="24" src="./images/twitter-logo.svg" alt="twitter logo">
+              </a>
+            </li>
+            <li class="social-sites__item">
+              <a href="https://instagram.com/" target="_blank">
+                <img class="footer-log-img" width="24" height="24" src="./images/instagram-logo.svg"
+                  alt="instagram logo">
+              </a>
+            </li>
+
+          </ul>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
